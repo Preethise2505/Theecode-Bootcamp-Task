@@ -1,0 +1,41 @@
+body{
+ background-color: aquamarine;
+ 
+}
+h1{
+  color:black;
+  background-color: aliceblue;
+  text-align: center;
+  width: 20%;
+  border-radius: 20px;
+  
+}
+.calculator-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  color:yellow;
+  
+ }
+ button{
+   color:black;
+   background-color:white;
+   height: 40px;
+   width: 50px;
+   border-radius: 10px;
+}
+.calculator{
+  border: 10px;
+  display:grid;
+  width:15%;
+  height:auto;
+  margin:0 auto;
+  
+}
+.calculator-screen{
+  width: 100%;
+  size: inherit;
+  height: 30px;
+}
+
